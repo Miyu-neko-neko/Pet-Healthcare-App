@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">健康管理日記</string>
+    <string name="input_name">新規登録</string>
+    <string name="register">登録</string>
+    <string name="go_back">戻る</string>
+    <string name="boy">オス</string>
+    <string name="girl">メス</string>
+    <string name="descrip">編集はタップ、削除は長押し</string>
+
+    <string name="intent_key_name">intent_key_name</string>
+    <string name="intent_key_position">intent_key_position</string>
+    <string name="IntentSelectedId">IntentSelectedId</string>
+
+    <string-array name="year_array">
+        <item name="year_2001">2001年</item>
+        <item name="year_2002">2002年</item>
+        <item name="year_2003">2003年</item>
+        <item name="year_2004">2004年</item>
+        <item name="year_2005">2005年</item>
+        <item name="year_2006">2006年</item>
+        <item name="year_2007">2007年</item>
+        <item name="year_2008">2008年</item>
+        <item name="year_2009">2009年</item>
+        <item name="year_2010">2010年</item>
+        <item name="year_2011">2011年</item>
+        <item name="year_2012">2012年</item>
+        <item name="year_2013">2013年</item>
+        <item name="year_2014">2014年</item>
+        <item name="year_2015">2015年</item>
+        <item name="year_2016">2016年</item>
+        <item name="year_2017">2017年</item>
+        <item name="year_2018">2018年</item>
+        <item name="year_2019">2019年</item>
+        <item name="year_2020">2020年</item>
+        <item name="year_2021">2021年</item>
+        <item name="year_2022">2022年</item>
+        <item name="year_2023">2023年</item>
+        <item name="year_2024">2024年</item>
+        <item name="year_2025">2025年</item>
+        <item name="year_2026">2026年</item>
+        <item name="year_2027">2027年</item>
+        <item name="year_2028">2028年</item>
+    </string-array>
+
+    <string-array name="month_array">月
+        <item name="january">01月</item>
+        <item name="february">02月</item>
+        <item name="march">03月</item>
+        <item name="april">04月</item>
+        <item name="may">05月</item>
+        <item name="june">06月</item>
+        <item name="july">07月</item>
+        <item name="august">08月</item>
+        <item name="september">09月</item>
+        <item name="october">10月</item>
+        <item name="november">11月</item>
+        <item name="december">12月</item>
+    </string-array>
+
+    <string-array name="date_array">
+        <item name="date_today1">01日</item>
+        <item name="date_today2">02日</item>
+        <item name="date_today3">03日</item>
+        <item name="date_today4">04日</item>
+        <item name="date_today5">05日</item>
+        <item name="date_today6">06日</item>
+        <item name="date_today7">07日</item>
+        <item name="date_today8">08日</item>
+        <item name="date_today9">09日</item>
+        <item name="date_today10">10日</item>
+        <item name="date_today11">11日</item>
+        <item name="date_today12">12日</item>
+        <item name="date_today13">13日</item>
+        <item name="date_today14">14日</item>
+        <item name="date_today15">15日</item>
+        <item name="date_today16">16日</item>
+        <item name="date_today17">17日</item>
+        <item name="date_today18">18日</item>
+        <item name="date_today19">19日</item>
+        <item name="date_today20">20日</item>
+        <item name="date_today21">21日</item>
+        <item name="date_today22">22日</item>
+        <item name="date_today23">23日</item>
+        <item name="date_today24">24日</item>
+        <item name="date_today25">25日</item>
+        <item name="date_today26">26日</item>
+        <item name="date_today27">27日</item>
+        <item name="date_today28">28日</item>
+        <item name="date_today29">29日</item>
+        <item name="date_today30">30日</item>
+        <item name="date_today31">31日</item>
+    </string-array>
+</resources>

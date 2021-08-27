@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MedicalRecord">
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btGoBack2"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:text="@string/go_back"
+        app:bootstrapBrand="primary"
+        app:bootstrapSize="lg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:roundedCorners="true" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btRegister2"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/register"
+        app:bootstrapBrand="primary"
+        app:bootstrapSize="lg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:roundedCorners="true" />
+
+    <TextView
+        android:id="@+id/tvSelectedName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="17dp"
+        android:gravity="right"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Spinner
+        android:id="@+id/spinnerMonth2"
+        android:layout_width="110dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectedName"
+        android:background="@drawable/border"/>
+
+    <Spinner
+        android:id="@+id/spinnerYear2"
+        android:layout_width="120dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectedName"
+        android:background="@drawable/border"/>
+
+    <Spinner
+        android:id="@+id/spinnerDate2"
+        android:layout_width="110dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectedName" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="398dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="#E9F0F1"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etWeight" />
+
+    <ListView
+        android:id="@+id/medicalListView"
+        android:layout_width="401dp"
+        android:layout_height="310dp"
+        android:background="#E9F0F1"
+        app:layout_constraintBottom_toTopOf="@+id/btGoBack2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btRegister2" />
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="体重"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerMonth2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

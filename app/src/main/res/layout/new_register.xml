@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android-bootstrap="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0E5E8">
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btGoBack"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:text="@string/go_back"
+        android-bootstrap:bootstrapBrand="primary"
+        android-bootstrap:bootstrapSize="lg"
+        android-bootstrap:layout_constraintBottom_toBottomOf="parent"
+        android-bootstrap:layout_constraintEnd_toEndOf="parent"
+        android-bootstrap:layout_constraintHorizontal_bias="0.006"
+        android-bootstrap:layout_constraintStart_toStartOf="parent"
+        android-bootstrap:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        android-bootstrap:layout_constraintVertical_bias="0.808"
+        android-bootstrap:roundedCorners="true" />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/etPersonName"
+        android:layout_width="263dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="名前"
+        android:inputType="textPersonName"
+        android-bootstrap:layout_constraintStart_toStartOf="parent"
+        android-bootstrap:layout_constraintTop_toTopOf="parent"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true" />
+
+    <Spinner
+        android:id="@+id/spinnerYear"
+        android:layout_width="110dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/white"
+        android:popupBackground="@android:drawable/btn_dropdown"
+        android-bootstrap:layout_constraintEnd_toStartOf="@+id/spinnerMonth"
+        android-bootstrap:layout_constraintHorizontal_bias="0.0"
+        android-bootstrap:layout_constraintStart_toStartOf="parent"
+        android-bootstrap:layout_constraintVertical_bias="0.0"
+        app:layout_constraintBottom_toBottomOf="@+id/spinnerMonth"
+        app:layout_constraintTop_toTopOf="@+id/spinnerMonth" />
+
+    <Spinner
+        android:id="@+id/spinnerDate"
+        android:layout_width="110dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/white"
+        android:popupBackground="@android:drawable/btn_dropdown"
+        android-bootstrap:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintBottom_toBottomOf="@+id/spinnerMonth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spinnerMonth"
+        app:layout_constraintTop_toTopOf="@+id/spinnerMonth" />
+
+    <Spinner
+        android:id="@+id/spinnerMonth"
+        android:layout_width="110dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="76dp"
+        android:background="@color/white"
+        android:popupBackground="@android:drawable/btn_dropdown"
+        android-bootstrap:layout_constraintHorizontal_bias="0.498"
+        android-bootstrap:layout_constraintTop_toBottomOf="@+id/etPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:text="生年月日"
+        android-bootstrap:layout_constraintStart_toStartOf="parent"
+        android-bootstrap:layout_constraintTop_toBottomOf="@+id/etPersonName" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="94dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:background="@color/white"
+        android-bootstrap:layout_constraintStart_toStartOf="parent"
+        android-bootstrap:layout_constraintTop_toBottomOf="@+id/spinnerYear">
+
+        <RadioButton
+            android:id="@+id/radioButtonBoy"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="オス" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGirl"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="メス" />
+    </RadioGroup>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btRegister"
+        android:layout_width="406dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:text="@string/register"
+        android-bootstrap:layout_constraintBottom_toBottomOf="parent"
+        android-bootstrap:layout_constraintEnd_toEndOf="parent"
+        android-bootstrap:layout_constraintHorizontal_bias="0.0"
+        android-bootstrap:layout_constraintStart_toStartOf="parent"
+        android-bootstrap:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        android-bootstrap:layout_constraintVertical_bias="0.29"
+        app:bootstrapBrand="primary"
+        app:bootstrapSize="lg"
+        app:roundedCorners="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
