@@ -67,7 +67,43 @@ class MedicalRecord : AppCompatActivity(), View.OnClickListener,
             spinnerYear.setSelection(yearPosition)
         }
 
+        if (today.get(Calendar.YEAR) == 2022) {
+            yearPosition = 21
+            spinnerYear.setSelection(yearPosition)
+        }
+
+        if (today.get(Calendar.YEAR) == 2023) {
+            yearPosition = 22
+            spinnerYear.setSelection(yearPosition)
+        }
+
+        if (today.get(Calendar.YEAR) == 2024) {
+            yearPosition = 23
+            spinnerYear.setSelection(yearPosition)
+        }
+
+        if (today.get(Calendar.YEAR) == 2025) {
+            yearPosition = 24
+            spinnerYear.setSelection(yearPosition)
+        }
+
+        if (today.get(Calendar.YEAR) == 2026) {
+            yearPosition = 25
+            spinnerYear.setSelection(yearPosition)
+        }
+
+        if (today.get(Calendar.YEAR) == 2027) {
+            yearPosition = 26
+            spinnerYear.setSelection(yearPosition)
+        }
+
+        if (today.get(Calendar.YEAR) == 2028) {
+            yearPosition = 27
+            spinnerYear.setSelection(yearPosition)
+        }
+
         spinnerMonth.setSelection(today.get(Calendar.MONTH))
+        //Log.v("MedicalRecord", "today.get(Calendar.MONTH= " + today.get(Calendar.MONTH)+ "")
         spinnerDate.setSelection(today.get(Calendar.DATE))
 
         spinnerDate.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
@@ -186,8 +222,6 @@ class MedicalRecord : AppCompatActivity(), View.OnClickListener,
 
         medical_adapter = ArrayAdapter(this@MedicalRecord,android.R.layout.simple_list_item_1,medical_list)
         binding.medicalListView.adapter = medical_adapter
-
-
     }
 
     override fun onPause() {
@@ -223,15 +257,9 @@ class MedicalRecord : AppCompatActivity(), View.OnClickListener,
             }
             setNegativeButton("no") {
                     dialog, which ->
-
             }
             show()
         }
-
         return true
-
-
     }
-
-
 }

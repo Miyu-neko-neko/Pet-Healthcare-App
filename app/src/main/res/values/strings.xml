@@ -42,7 +42,7 @@
         <item name="year_2028">2028年</item>
     </string-array>
 
-    <string-array name="month_array">月
+    <string-array name="month_array">
         <item name="january">01月</item>
         <item name="february">02月</item>
         <item name="march">03月</item>
@@ -58,6 +58,7 @@
     </string-array>
 
     <string-array name="date_array">
+        <item name="date_today1">日</item>
         <item name="date_today1">01日</item>
         <item name="date_today2">02日</item>
         <item name="date_today3">03日</item>

@@ -110,6 +110,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemLongClickListener,
         intent.putExtra(getString(R.string.intent_key_name), strSelectName)
         intent.putExtra(getString(R.string.IntentSelectedId), selectedId)
 
+
         startActivity(intent)
     }
 

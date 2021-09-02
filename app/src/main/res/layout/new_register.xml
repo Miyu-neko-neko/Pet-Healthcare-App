@@ -19,8 +19,9 @@
         android-bootstrap:layout_constraintHorizontal_bias="0.006"
         android-bootstrap:layout_constraintStart_toStartOf="parent"
         android-bootstrap:layout_constraintTop_toBottomOf="@+id/radioGroup"
-        android-bootstrap:layout_constraintVertical_bias="0.808"
-        android-bootstrap:roundedCorners="true" />
+        android-bootstrap:layout_constraintVertical_bias="0.739"
+        android-bootstrap:roundedCorners="true"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <com.beardedhen.androidbootstrap.BootstrapEditText
         android:id="@+id/etPersonName"
@@ -31,6 +32,7 @@
         android:ems="10"
         android:hint="名前"
         android:inputType="textPersonName"
+        android:textColor="@color/black"
         android-bootstrap:layout_constraintStart_toStartOf="parent"
         android-bootstrap:layout_constraintTop_toTopOf="parent"
         app:bootstrapBrand="primary"
@@ -38,7 +40,7 @@
 
     <Spinner
         android:id="@+id/spinnerYear"
-        android:layout_width="110dp"
+        android:layout_width="100dp"
         android:layout_height="44dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
@@ -53,7 +55,7 @@
 
     <Spinner
         android:id="@+id/spinnerDate"
-        android:layout_width="110dp"
+        android:layout_width="100dp"
         android:layout_height="44dp"
         android:layout_marginStart="17dp"
         android:layout_marginEnd="16dp"
@@ -67,7 +69,7 @@
 
     <Spinner
         android:id="@+id/spinnerMonth"
-        android:layout_width="110dp"
+        android:layout_width="100dp"
         android:layout_height="44dp"
         android:layout_marginTop="76dp"
         android:background="@color/white"
@@ -89,8 +91,8 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="94dp"
-        android:layout_height="93dp"
+        android:layout_width="109dp"
+        android:layout_height="96dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="76dp"
         android:background="@color/white"
@@ -101,18 +103,20 @@
             android:id="@+id/radioButtonBoy"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:text="オス" />
+            android:text="@string/boy"
+            android:textColor="@color/black" />
 
         <RadioButton
             android:id="@+id/radioButtonGirl"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:text="メス" />
+            android:text="@string/girl"
+            android:textColor="@color/black" />
     </RadioGroup>
 
     <com.beardedhen.androidbootstrap.BootstrapButton
         android:id="@+id/btRegister"
-        android:layout_width="406dp"
+        android:layout_width="380dp"
         android:layout_height="48dp"
         android:layout_marginStart="2dp"
         android:text="@string/register"
