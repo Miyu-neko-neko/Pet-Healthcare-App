@@ -1,4 +1,4 @@
-package com.example.pethealthcaresample
+package com.example.pethealthcarememoapp
 
 import org.junit.Test
 

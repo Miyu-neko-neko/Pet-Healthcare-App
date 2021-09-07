@@ -22,16 +22,18 @@
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="330dp"
-        android:layout_height="561dp"
+        android:layout_width="326dp"
+        android:layout_height="0dp"
         android:layout_marginStart="17dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginBottom="10dp"
         android:background="#E9F0F1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonRegister"
-        app:layout_constraintVertical_bias="0.918" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
 
     <TextView
         android:id="@+id/textView5"

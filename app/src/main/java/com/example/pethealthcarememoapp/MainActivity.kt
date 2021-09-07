@@ -1,4 +1,4 @@
-package com.example.pethealthcaresample
+package com.example.pethealthcarememoapp
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import com.example.pethealthcaresample.databinding.ActivityMainBinding
+import com.example.pethealthcarememoapp.databinding.ActivityMainBinding
 import io.realm.Realm
 import io.realm.RealmResults
 

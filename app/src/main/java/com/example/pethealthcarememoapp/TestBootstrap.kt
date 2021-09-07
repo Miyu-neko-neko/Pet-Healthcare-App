@@ -1,4 +1,4 @@
-package com.example.pethealthcaresample
+package com.example.pethealthcarememoapp
 
 import android.app.Application
 import com.beardedhen.androidbootstrap.TypefaceProvider

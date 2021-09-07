@@ -1,4 +1,4 @@
-package com.example.pethealthcaresample
+package com.example.pethealthcarememoapp
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -11,7 +11,7 @@ import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.annotation.RequiresApi
-import com.example.pethealthcaresample.databinding.NewRegisterBinding
+import com.example.pethealthcarememoapp.databinding.NewRegisterBinding
 import io.realm.Realm
 import java.util.*
 

@@ -1,4 +1,4 @@
-package com.example.pethealthcaresample
+package com.example.pethealthcarememoapp
 
 import io.realm.RealmObject
 import io.realm.annotations.PrimaryKey

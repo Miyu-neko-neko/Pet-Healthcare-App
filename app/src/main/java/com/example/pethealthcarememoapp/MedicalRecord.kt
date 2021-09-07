@@ -1,4 +1,4 @@
-package com.example.pethealthcaresample
+package com.example.pethealthcarememoapp
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.*
-import com.example.pethealthcaresample.databinding.MedicalRecordBinding
+import com.example.pethealthcarememoapp.databinding.MedicalRecordBinding
 import io.realm.Realm
 import io.realm.RealmResults
 import io.realm.Sort
